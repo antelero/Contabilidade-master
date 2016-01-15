@@ -1,0 +1,32 @@
+C:\Users\Marcelo\Desktop\Contabilidade-master\Contabilidade-master\Estoque\Negocio\bin\Debug\Negocio.dll
+C:\Users\Marcelo\Desktop\Contabilidade-master\Contabilidade-master\Estoque\Negocio\bin\Debug\Negocio.pdb
+C:\Users\Marcelo\Desktop\Contabilidade-master\Contabilidade-master\Estoque\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
+C:\Users\Marcelo\Desktop\Contabilidade-master\Contabilidade-master\Estoque\Negocio\obj\Debug\Negocio.dll
+C:\Users\Marcelo\Desktop\Contabilidade-master\Contabilidade-master\Estoque\Negocio\obj\Debug\Negocio.pdb
+C:\Users\Marcelo\OneDrive\Contabilidade-master\Estoque\Negocio\bin\Debug\Negocio.dll
+C:\Users\Marcelo\OneDrive\Contabilidade-master\Estoque\Negocio\bin\Debug\Negocio.pdb
+C:\Users\Marcelo\OneDrive\Contabilidade-master\Estoque\Negocio\bin\Debug\AcessoBancoDados.dll
+C:\Users\Marcelo\OneDrive\Contabilidade-master\Estoque\Negocio\bin\Debug\ObjetoTransferencia.dll
+C:\Users\Marcelo\OneDrive\Contabilidade-master\Estoque\Negocio\bin\Debug\AcessoBancoDados.pdb
+C:\Users\Marcelo\OneDrive\Contabilidade-master\Estoque\Negocio\bin\Debug\ObjetoTransferencia.pdb
+C:\Users\Marcelo\OneDrive\Contabilidade-master\Estoque\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
+C:\Users\Marcelo\OneDrive\Contabilidade-master\Estoque\Negocio\obj\Debug\Negocio.dll
+C:\Users\Marcelo\OneDrive\Contabilidade-master\Estoque\Negocio\obj\Debug\Negocio.pdb
+C:\Users\Marcelo\Desktop\Nova pasta\Contabilidade-master\Estoque\Negocio\bin\Debug\Negocio.dll
+C:\Users\Marcelo\Desktop\Nova pasta\Contabilidade-master\Estoque\Negocio\bin\Debug\Negocio.pdb
+C:\Users\Marcelo\Desktop\Nova pasta\Contabilidade-master\Estoque\Negocio\bin\Debug\AcessoBancoDados.dll
+C:\Users\Marcelo\Desktop\Nova pasta\Contabilidade-master\Estoque\Negocio\bin\Debug\ObjetoTransferencia.dll
+C:\Users\Marcelo\Desktop\Nova pasta\Contabilidade-master\Estoque\Negocio\bin\Debug\AcessoBancoDados.pdb
+C:\Users\Marcelo\Desktop\Nova pasta\Contabilidade-master\Estoque\Negocio\bin\Debug\ObjetoTransferencia.pdb
+C:\Users\Marcelo\Desktop\Nova pasta\Contabilidade-master\Estoque\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
+C:\Users\Marcelo\Desktop\Nova pasta\Contabilidade-master\Estoque\Negocio\obj\Debug\Negocio.dll
+C:\Users\Marcelo\Desktop\Nova pasta\Contabilidade-master\Estoque\Negocio\obj\Debug\Negocio.pdb
+C:\Users\Marcelo\Desktop\Contabilidade-master\Estoque\Negocio\bin\Debug\Negocio.dll
+C:\Users\Marcelo\Desktop\Contabilidade-master\Estoque\Negocio\bin\Debug\Negocio.pdb
+C:\Users\Marcelo\Desktop\Contabilidade-master\Estoque\Negocio\bin\Debug\AcessoBancoDados.dll
+C:\Users\Marcelo\Desktop\Contabilidade-master\Estoque\Negocio\bin\Debug\ObjetoTransferencia.dll
+C:\Users\Marcelo\Desktop\Contabilidade-master\Estoque\Negocio\bin\Debug\AcessoBancoDados.pdb
+C:\Users\Marcelo\Desktop\Contabilidade-master\Estoque\Negocio\bin\Debug\ObjetoTransferencia.pdb
+C:\Users\Marcelo\Desktop\Contabilidade-master\Estoque\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
+C:\Users\Marcelo\Desktop\Contabilidade-master\Estoque\Negocio\obj\Debug\Negocio.dll
+C:\Users\Marcelo\Desktop\Contabilidade-master\Estoque\Negocio\obj\Debug\Negocio.pdb

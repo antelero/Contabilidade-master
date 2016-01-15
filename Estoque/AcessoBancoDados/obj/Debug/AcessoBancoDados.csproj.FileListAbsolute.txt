@@ -1,0 +1,12 @@
+C:\Users\Marcelo\Desktop\Contabilidade-master\Contabilidade-master\Estoque\AcessoBancoDados\obj\Debug\AcessoBancoDados.csprojResolveAssemblyReference.cache
+C:\Users\Marcelo\Desktop\Contabilidade-master\Contabilidade-master\Estoque\AcessoBancoDados\bin\Debug\AcessoBancoDados.dll.config
+C:\Users\Marcelo\Desktop\Contabilidade-master\Contabilidade-master\Estoque\AcessoBancoDados\bin\Debug\AcessoBancoDados.dll
+C:\Users\Marcelo\Desktop\Contabilidade-master\Contabilidade-master\Estoque\AcessoBancoDados\bin\Debug\AcessoBancoDados.pdb
+C:\Users\Marcelo\Desktop\Contabilidade-master\Contabilidade-master\Estoque\AcessoBancoDados\obj\Debug\AcessoBancoDados.dll
+C:\Users\Marcelo\Desktop\Contabilidade-master\Contabilidade-master\Estoque\AcessoBancoDados\obj\Debug\AcessoBancoDados.pdb
+C:\Users\Marcelo\Desktop\Contabilidade-master\Estoque\AcessoBancoDados\bin\Debug\AcessoBancoDados.dll.config
+C:\Users\Marcelo\Desktop\Contabilidade-master\Estoque\AcessoBancoDados\bin\Debug\AcessoBancoDados.dll
+C:\Users\Marcelo\Desktop\Contabilidade-master\Estoque\AcessoBancoDados\bin\Debug\AcessoBancoDados.pdb
+C:\Users\Marcelo\Desktop\Contabilidade-master\Estoque\AcessoBancoDados\obj\Debug\AcessoBancoDados.dll
+C:\Users\Marcelo\Desktop\Contabilidade-master\Estoque\AcessoBancoDados\obj\Debug\AcessoBancoDados.pdb
+C:\Users\Marcelo\Desktop\Contabilidade-master\Estoque\AcessoBancoDados\obj\Debug\AcessoBancoDados.csprojResolveAssemblyReference.cache

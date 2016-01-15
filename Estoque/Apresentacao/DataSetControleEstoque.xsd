@@ -1,0 +1,435 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSetControleEstoque" targetNamespace="http://tempuri.org/DataSetControleEstoque.xsd" xmlns:mstns="http://tempuri.org/DataSetControleEstoque.xsd" xmlns="http://tempuri.org/DataSetControleEstoque.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="ControleEstoqueConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ControleEstoqueConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Apresentacao.Properties.Settings.GlobalReference.Default.ControleEstoqueConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="uvwConsultarDescricaoCategoriaTableAdapter" GeneratorDataComponentClassName="uvwConsultarDescricaoCategoriaTableAdapter" Name="uvwConsultarDescricaoCategoria" UserDataComponentName="uvwConsultarDescricaoCategoriaTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ControleEstoqueConnectionString (Settings)" DbObjectName="ControleEstoque.dbo.uvwConsultarDescricaoCategoria" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT Bebida, Categoria, Preco, Quantidade FROM dbo.uvwConsultarDescricaoCategoria</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Bebida" DataSetColumn="Bebida" />
+              <Mapping SourceColumn="Categoria" DataSetColumn="Categoria" />
+              <Mapping SourceColumn="Preco" DataSetColumn="Preco" />
+              <Mapping SourceColumn="Quantidade" DataSetColumn="Quantidade" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="uvwDescricaoCategoriaQtdeTableAdapter" GeneratorDataComponentClassName="uvwDescricaoCategoriaQtdeTableAdapter" Name="uvwDescricaoCategoriaQtde" UserDataComponentName="uvwDescricaoCategoriaQtdeTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ControleEstoqueConnectionString (Settings)" DbObjectName="ControleEstoque.dbo.uvwDescricaoCategoriaQtde" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT Descrição_Item, Categoria_Item, Menor_Data_Entrada, Maior_Data_Entrada, Qtde_Disponivel, Media_Preco, NomeFantasia FROM dbo.uvwDescricaoCategoriaQtde</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Descrição_Item" DataSetColumn="Descrição_Item" />
+              <Mapping SourceColumn="Categoria_Item" DataSetColumn="Categoria_Item" />
+              <Mapping SourceColumn="Menor_Data_Entrada" DataSetColumn="Menor_Data_Entrada" />
+              <Mapping SourceColumn="Maior_Data_Entrada" DataSetColumn="Maior_Data_Entrada" />
+              <Mapping SourceColumn="Qtde_Disponivel" DataSetColumn="Qtde_Disponivel" />
+              <Mapping SourceColumn="Media_Preco" DataSetColumn="Media_Preco" />
+              <Mapping SourceColumn="NomeFantasia" DataSetColumn="NomeFantasia" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="uvwEmailValidarTableAdapter" GeneratorDataComponentClassName="uvwEmailValidarTableAdapter" Name="uvwEmailValidar" UserDataComponentName="uvwEmailValidarTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ControleEstoqueConnectionString (Settings)" DbObjectName="ControleEstoque.dbo.uvwEmailValidar" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT Nome, Senha, Email FROM dbo.uvwEmailValidar</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Nome" DataSetColumn="Nome" />
+              <Mapping SourceColumn="Senha" DataSetColumn="Senha" />
+              <Mapping SourceColumn="Email" DataSetColumn="Email" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="uvwEstoqueCarregarTableAdapter" GeneratorDataComponentClassName="uvwEstoqueCarregarTableAdapter" Name="uvwEstoqueCarregar" UserDataComponentName="uvwEstoqueCarregarTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ControleEstoqueConnectionString (Settings)" DbObjectName="ControleEstoque.dbo.uvwEstoqueCarregar" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT Desc_Mov, NumLote, DescriçãoItem, CategoriaItem, Qtde, PrecoUnit, DataEntrada, NomeFantasia FROM dbo.uvwEstoqueCarregar</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Desc_Mov" DataSetColumn="Desc_Mov" />
+              <Mapping SourceColumn="NumLote" DataSetColumn="NumLote" />
+              <Mapping SourceColumn="DescriçãoItem" DataSetColumn="DescriçãoItem" />
+              <Mapping SourceColumn="CategoriaItem" DataSetColumn="CategoriaItem" />
+              <Mapping SourceColumn="Qtde" DataSetColumn="Qtde" />
+              <Mapping SourceColumn="PrecoUnit" DataSetColumn="PrecoUnit" />
+              <Mapping SourceColumn="DataEntrada" DataSetColumn="DataEntrada" />
+              <Mapping SourceColumn="NomeFantasia" DataSetColumn="NomeFantasia" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="uvwEstoqueCustoMedioCarregarTableAdapter" GeneratorDataComponentClassName="uvwEstoqueCustoMedioCarregarTableAdapter" Name="uvwEstoqueCustoMedioCarregar" UserDataComponentName="uvwEstoqueCustoMedioCarregarTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ControleEstoqueConnectionString (Settings)" DbObjectName="ControleEstoque.dbo.uvwEstoqueCustoMedioCarregar" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT Desc_Mov, NumLote, Descricao, Qtde, PrecoUnit, DataEntrada, DataSaida, Subtotal, ICMS, Total FROM dbo.uvwEstoqueCustoMedioCarregar</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Desc_Mov" DataSetColumn="Desc_Mov" />
+              <Mapping SourceColumn="NumLote" DataSetColumn="NumLote" />
+              <Mapping SourceColumn="Descricao" DataSetColumn="Descricao" />
+              <Mapping SourceColumn="Qtde" DataSetColumn="Qtde" />
+              <Mapping SourceColumn="PrecoUnit" DataSetColumn="PrecoUnit" />
+              <Mapping SourceColumn="DataEntrada" DataSetColumn="DataEntrada" />
+              <Mapping SourceColumn="DataSaida" DataSetColumn="DataSaida" />
+              <Mapping SourceColumn="Subtotal" DataSetColumn="Subtotal" />
+              <Mapping SourceColumn="ICMS" DataSetColumn="ICMS" />
+              <Mapping SourceColumn="Total" DataSetColumn="Total" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="uvwEstoquePEPSCarregarTableAdapter" GeneratorDataComponentClassName="uvwEstoquePEPSCarregarTableAdapter" Name="uvwEstoquePEPSCarregar" UserDataComponentName="uvwEstoquePEPSCarregarTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ControleEstoqueConnectionString (Settings)" DbObjectName="ControleEstoque.dbo.uvwEstoquePEPSCarregar" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT Desc_Mov, NumLote, Descricao, Qtde, PrecoUnit, DataEntrada, DataSaida, Subtotal, ICMS, Total FROM dbo.uvwEstoquePEPSCarregar</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Desc_Mov" DataSetColumn="Desc_Mov" />
+              <Mapping SourceColumn="NumLote" DataSetColumn="NumLote" />
+              <Mapping SourceColumn="Descricao" DataSetColumn="Descricao" />
+              <Mapping SourceColumn="Qtde" DataSetColumn="Qtde" />
+              <Mapping SourceColumn="PrecoUnit" DataSetColumn="PrecoUnit" />
+              <Mapping SourceColumn="DataEntrada" DataSetColumn="DataEntrada" />
+              <Mapping SourceColumn="DataSaida" DataSetColumn="DataSaida" />
+              <Mapping SourceColumn="Subtotal" DataSetColumn="Subtotal" />
+              <Mapping SourceColumn="ICMS" DataSetColumn="ICMS" />
+              <Mapping SourceColumn="Total" DataSetColumn="Total" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="uvwEstoqueUEPSCarregarTableAdapter" GeneratorDataComponentClassName="uvwEstoqueUEPSCarregarTableAdapter" Name="uvwEstoqueUEPSCarregar" UserDataComponentName="uvwEstoqueUEPSCarregarTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ControleEstoqueConnectionString (Settings)" DbObjectName="ControleEstoque.dbo.uvwEstoqueUEPSCarregar" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT Desc_Mov, NumLote, Descricao, Qtde, PrecoUnit, DataEntrada, DataSaida, Subtotal, ICMS, Total FROM dbo.uvwEstoqueUEPSCarregar</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Desc_Mov" DataSetColumn="Desc_Mov" />
+              <Mapping SourceColumn="NumLote" DataSetColumn="NumLote" />
+              <Mapping SourceColumn="Descricao" DataSetColumn="Descricao" />
+              <Mapping SourceColumn="Qtde" DataSetColumn="Qtde" />
+              <Mapping SourceColumn="PrecoUnit" DataSetColumn="PrecoUnit" />
+              <Mapping SourceColumn="DataEntrada" DataSetColumn="DataEntrada" />
+              <Mapping SourceColumn="DataSaida" DataSetColumn="DataSaida" />
+              <Mapping SourceColumn="Subtotal" DataSetColumn="Subtotal" />
+              <Mapping SourceColumn="ICMS" DataSetColumn="ICMS" />
+              <Mapping SourceColumn="Total" DataSetColumn="Total" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="uvwUsuarioNivelAcessoTableAdapter" GeneratorDataComponentClassName="uvwUsuarioNivelAcessoTableAdapter" Name="uvwUsuarioNivelAcesso" UserDataComponentName="uvwUsuarioNivelAcessoTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ControleEstoqueConnectionString (Settings)" DbObjectName="ControleEstoque.dbo.uvwUsuarioNivelAcesso" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT NOME, SENHA, EMAIL, idAcesso, NIVELACESSO FROM dbo.uvwUsuarioNivelAcesso</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="NOME" DataSetColumn="NOME" />
+              <Mapping SourceColumn="SENHA" DataSetColumn="SENHA" />
+              <Mapping SourceColumn="EMAIL" DataSetColumn="EMAIL" />
+              <Mapping SourceColumn="idAcesso" DataSetColumn="idAcesso" />
+              <Mapping SourceColumn="NIVELACESSO" DataSetColumn="NIVELACESSO" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSetControleEstoque" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="DataSetControleEstoque" msprop:Generator_UserDSName="DataSetControleEstoque">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="uvwConsultarDescricaoCategoria" msprop:Generator_TableClassName="uvwConsultarDescricaoCategoriaDataTable" msprop:Generator_TableVarName="tableuvwConsultarDescricaoCategoria" msprop:Generator_TablePropName="uvwConsultarDescricaoCategoria" msprop:Generator_RowDeletingName="uvwConsultarDescricaoCategoriaRowDeleting" msprop:Generator_RowChangingName="uvwConsultarDescricaoCategoriaRowChanging" msprop:Generator_RowEvHandlerName="uvwConsultarDescricaoCategoriaRowChangeEventHandler" msprop:Generator_RowDeletedName="uvwConsultarDescricaoCategoriaRowDeleted" msprop:Generator_UserTableName="uvwConsultarDescricaoCategoria" msprop:Generator_RowChangedName="uvwConsultarDescricaoCategoriaRowChanged" msprop:Generator_RowEvArgName="uvwConsultarDescricaoCategoriaRowChangeEvent" msprop:Generator_RowClassName="uvwConsultarDescricaoCategoriaRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Bebida" msprop:Generator_ColumnVarNameInTable="columnBebida" msprop:Generator_ColumnPropNameInRow="Bebida" msprop:Generator_ColumnPropNameInTable="BebidaColumn" msprop:Generator_UserColumnName="Bebida">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Categoria" msprop:Generator_ColumnVarNameInTable="columnCategoria" msprop:Generator_ColumnPropNameInRow="Categoria" msprop:Generator_ColumnPropNameInTable="CategoriaColumn" msprop:Generator_UserColumnName="Categoria">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Preco" msprop:Generator_ColumnVarNameInTable="columnPreco" msprop:Generator_ColumnPropNameInRow="Preco" msprop:Generator_ColumnPropNameInTable="PrecoColumn" msprop:Generator_UserColumnName="Preco" type="xs:decimal" />
+              <xs:element name="Quantidade" msprop:Generator_ColumnVarNameInTable="columnQuantidade" msprop:Generator_ColumnPropNameInRow="Quantidade" msprop:Generator_ColumnPropNameInTable="QuantidadeColumn" msprop:Generator_UserColumnName="Quantidade" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="uvwDescricaoCategoriaQtde" msprop:Generator_TableClassName="uvwDescricaoCategoriaQtdeDataTable" msprop:Generator_TableVarName="tableuvwDescricaoCategoriaQtde" msprop:Generator_TablePropName="uvwDescricaoCategoriaQtde" msprop:Generator_RowDeletingName="uvwDescricaoCategoriaQtdeRowDeleting" msprop:Generator_RowChangingName="uvwDescricaoCategoriaQtdeRowChanging" msprop:Generator_RowEvHandlerName="uvwDescricaoCategoriaQtdeRowChangeEventHandler" msprop:Generator_RowDeletedName="uvwDescricaoCategoriaQtdeRowDeleted" msprop:Generator_UserTableName="uvwDescricaoCategoriaQtde" msprop:Generator_RowChangedName="uvwDescricaoCategoriaQtdeRowChanged" msprop:Generator_RowEvArgName="uvwDescricaoCategoriaQtdeRowChangeEvent" msprop:Generator_RowClassName="uvwDescricaoCategoriaQtdeRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Descrição_Item" msprop:Generator_ColumnVarNameInTable="columnDescrição_Item" msprop:Generator_ColumnPropNameInRow="Descrição_Item" msprop:Generator_ColumnPropNameInTable="Descrição_ItemColumn" msprop:Generator_UserColumnName="Descrição_Item">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Categoria_Item" msprop:Generator_ColumnVarNameInTable="columnCategoria_Item" msprop:Generator_ColumnPropNameInRow="Categoria_Item" msprop:Generator_ColumnPropNameInTable="Categoria_ItemColumn" msprop:Generator_UserColumnName="Categoria_Item">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Menor_Data_Entrada" msprop:Generator_ColumnVarNameInTable="columnMenor_Data_Entrada" msprop:Generator_ColumnPropNameInRow="Menor_Data_Entrada" msprop:Generator_ColumnPropNameInTable="Menor_Data_EntradaColumn" msprop:Generator_UserColumnName="Menor_Data_Entrada" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Maior_Data_Entrada" msprop:Generator_ColumnVarNameInTable="columnMaior_Data_Entrada" msprop:Generator_ColumnPropNameInRow="Maior_Data_Entrada" msprop:Generator_ColumnPropNameInTable="Maior_Data_EntradaColumn" msprop:Generator_UserColumnName="Maior_Data_Entrada" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Qtde_Disponivel" msprop:Generator_ColumnVarNameInTable="columnQtde_Disponivel" msprop:Generator_ColumnPropNameInRow="Qtde_Disponivel" msprop:Generator_ColumnPropNameInTable="Qtde_DisponivelColumn" msprop:Generator_UserColumnName="Qtde_Disponivel" type="xs:int" minOccurs="0" />
+              <xs:element name="Media_Preco" msprop:Generator_ColumnVarNameInTable="columnMedia_Preco" msprop:Generator_ColumnPropNameInRow="Media_Preco" msprop:Generator_ColumnPropNameInTable="Media_PrecoColumn" msprop:Generator_UserColumnName="Media_Preco" type="xs:decimal" minOccurs="0" />
+              <xs:element name="NomeFantasia" msprop:Generator_ColumnVarNameInTable="columnNomeFantasia" msprop:Generator_ColumnPropNameInRow="NomeFantasia" msprop:Generator_ColumnPropNameInTable="NomeFantasiaColumn" msprop:Generator_UserColumnName="NomeFantasia">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="uvwEmailValidar" msprop:Generator_TableClassName="uvwEmailValidarDataTable" msprop:Generator_TableVarName="tableuvwEmailValidar" msprop:Generator_TablePropName="uvwEmailValidar" msprop:Generator_RowDeletingName="uvwEmailValidarRowDeleting" msprop:Generator_RowChangingName="uvwEmailValidarRowChanging" msprop:Generator_RowEvHandlerName="uvwEmailValidarRowChangeEventHandler" msprop:Generator_RowDeletedName="uvwEmailValidarRowDeleted" msprop:Generator_UserTableName="uvwEmailValidar" msprop:Generator_RowChangedName="uvwEmailValidarRowChanged" msprop:Generator_RowEvArgName="uvwEmailValidarRowChangeEvent" msprop:Generator_RowClassName="uvwEmailValidarRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Nome" msprop:Generator_ColumnVarNameInTable="columnNome" msprop:Generator_ColumnPropNameInRow="Nome" msprop:Generator_ColumnPropNameInTable="NomeColumn" msprop:Generator_UserColumnName="Nome">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Senha" msprop:Generator_ColumnVarNameInTable="columnSenha" msprop:Generator_ColumnPropNameInRow="Senha" msprop:Generator_ColumnPropNameInTable="SenhaColumn" msprop:Generator_UserColumnName="Senha">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Email" msprop:Generator_ColumnVarNameInTable="columnEmail" msprop:Generator_ColumnPropNameInRow="Email" msprop:Generator_ColumnPropNameInTable="EmailColumn" msprop:Generator_UserColumnName="Email">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="uvwEstoqueCarregar" msprop:Generator_TableClassName="uvwEstoqueCarregarDataTable" msprop:Generator_TableVarName="tableuvwEstoqueCarregar" msprop:Generator_TablePropName="uvwEstoqueCarregar" msprop:Generator_RowDeletingName="uvwEstoqueCarregarRowDeleting" msprop:Generator_RowChangingName="uvwEstoqueCarregarRowChanging" msprop:Generator_RowEvHandlerName="uvwEstoqueCarregarRowChangeEventHandler" msprop:Generator_RowDeletedName="uvwEstoqueCarregarRowDeleted" msprop:Generator_UserTableName="uvwEstoqueCarregar" msprop:Generator_RowChangedName="uvwEstoqueCarregarRowChanged" msprop:Generator_RowEvArgName="uvwEstoqueCarregarRowChangeEvent" msprop:Generator_RowClassName="uvwEstoqueCarregarRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Desc_Mov" msprop:Generator_ColumnVarNameInTable="columnDesc_Mov" msprop:Generator_ColumnPropNameInRow="Desc_Mov" msprop:Generator_ColumnPropNameInTable="Desc_MovColumn" msprop:Generator_UserColumnName="Desc_Mov">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NumLote" msprop:Generator_ColumnVarNameInTable="columnNumLote" msprop:Generator_ColumnPropNameInRow="NumLote" msprop:Generator_ColumnPropNameInTable="NumLoteColumn" msprop:Generator_UserColumnName="NumLote" type="xs:int" />
+              <xs:element name="DescriçãoItem" msprop:Generator_ColumnVarNameInTable="columnDescriçãoItem" msprop:Generator_ColumnPropNameInRow="DescriçãoItem" msprop:Generator_ColumnPropNameInTable="DescriçãoItemColumn" msprop:Generator_UserColumnName="DescriçãoItem">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CategoriaItem" msprop:Generator_ColumnVarNameInTable="columnCategoriaItem" msprop:Generator_ColumnPropNameInRow="CategoriaItem" msprop:Generator_ColumnPropNameInTable="CategoriaItemColumn" msprop:Generator_UserColumnName="CategoriaItem">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Qtde" msprop:Generator_ColumnVarNameInTable="columnQtde" msprop:Generator_ColumnPropNameInRow="Qtde" msprop:Generator_ColumnPropNameInTable="QtdeColumn" msprop:Generator_UserColumnName="Qtde" type="xs:int" />
+              <xs:element name="PrecoUnit" msprop:Generator_ColumnVarNameInTable="columnPrecoUnit" msprop:Generator_ColumnPropNameInRow="PrecoUnit" msprop:Generator_ColumnPropNameInTable="PrecoUnitColumn" msprop:Generator_UserColumnName="PrecoUnit" type="xs:decimal" />
+              <xs:element name="DataEntrada" msprop:Generator_ColumnVarNameInTable="columnDataEntrada" msprop:Generator_ColumnPropNameInRow="DataEntrada" msprop:Generator_ColumnPropNameInTable="DataEntradaColumn" msprop:Generator_UserColumnName="DataEntrada" type="xs:dateTime" />
+              <xs:element name="NomeFantasia" msprop:Generator_ColumnVarNameInTable="columnNomeFantasia" msprop:Generator_ColumnPropNameInRow="NomeFantasia" msprop:Generator_ColumnPropNameInTable="NomeFantasiaColumn" msprop:Generator_UserColumnName="NomeFantasia">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="uvwEstoqueCustoMedioCarregar" msprop:Generator_TableClassName="uvwEstoqueCustoMedioCarregarDataTable" msprop:Generator_TableVarName="tableuvwEstoqueCustoMedioCarregar" msprop:Generator_TablePropName="uvwEstoqueCustoMedioCarregar" msprop:Generator_RowDeletingName="uvwEstoqueCustoMedioCarregarRowDeleting" msprop:Generator_RowChangingName="uvwEstoqueCustoMedioCarregarRowChanging" msprop:Generator_RowEvHandlerName="uvwEstoqueCustoMedioCarregarRowChangeEventHandler" msprop:Generator_RowDeletedName="uvwEstoqueCustoMedioCarregarRowDeleted" msprop:Generator_UserTableName="uvwEstoqueCustoMedioCarregar" msprop:Generator_RowChangedName="uvwEstoqueCustoMedioCarregarRowChanged" msprop:Generator_RowEvArgName="uvwEstoqueCustoMedioCarregarRowChangeEvent" msprop:Generator_RowClassName="uvwEstoqueCustoMedioCarregarRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Desc_Mov" msprop:Generator_ColumnVarNameInTable="columnDesc_Mov" msprop:Generator_ColumnPropNameInRow="Desc_Mov" msprop:Generator_ColumnPropNameInTable="Desc_MovColumn" msprop:Generator_UserColumnName="Desc_Mov">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NumLote" msprop:Generator_ColumnVarNameInTable="columnNumLote" msprop:Generator_ColumnPropNameInRow="NumLote" msprop:Generator_ColumnPropNameInTable="NumLoteColumn" msprop:Generator_UserColumnName="NumLote" type="xs:int" />
+              <xs:element name="Descricao" msprop:Generator_ColumnVarNameInTable="columnDescricao" msprop:Generator_ColumnPropNameInRow="Descricao" msprop:Generator_ColumnPropNameInTable="DescricaoColumn" msprop:Generator_UserColumnName="Descricao">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Qtde" msprop:Generator_ColumnVarNameInTable="columnQtde" msprop:Generator_ColumnPropNameInRow="Qtde" msprop:Generator_ColumnPropNameInTable="QtdeColumn" msprop:Generator_UserColumnName="Qtde" type="xs:int" />
+              <xs:element name="PrecoUnit" msprop:Generator_ColumnVarNameInTable="columnPrecoUnit" msprop:Generator_ColumnPropNameInRow="PrecoUnit" msprop:Generator_ColumnPropNameInTable="PrecoUnitColumn" msprop:Generator_UserColumnName="PrecoUnit" type="xs:decimal" />
+              <xs:element name="DataEntrada" msprop:Generator_ColumnVarNameInTable="columnDataEntrada" msprop:Generator_ColumnPropNameInRow="DataEntrada" msprop:Generator_ColumnPropNameInTable="DataEntradaColumn" msprop:Generator_UserColumnName="DataEntrada" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="DataSaida" msprop:Generator_ColumnVarNameInTable="columnDataSaida" msprop:Generator_ColumnPropNameInRow="DataSaida" msprop:Generator_ColumnPropNameInTable="DataSaidaColumn" msprop:Generator_UserColumnName="DataSaida" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Subtotal" msprop:Generator_ColumnVarNameInTable="columnSubtotal" msprop:Generator_ColumnPropNameInRow="Subtotal" msprop:Generator_ColumnPropNameInTable="SubtotalColumn" msprop:Generator_UserColumnName="Subtotal" type="xs:decimal" />
+              <xs:element name="ICMS" msprop:Generator_ColumnVarNameInTable="columnICMS" msprop:Generator_ColumnPropNameInRow="ICMS" msprop:Generator_ColumnPropNameInTable="ICMSColumn" msprop:Generator_UserColumnName="ICMS" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Total" msprop:Generator_ColumnVarNameInTable="columnTotal" msprop:Generator_ColumnPropNameInRow="Total" msprop:Generator_ColumnPropNameInTable="TotalColumn" msprop:Generator_UserColumnName="Total" type="xs:decimal" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="uvwEstoquePEPSCarregar" msprop:Generator_TableClassName="uvwEstoquePEPSCarregarDataTable" msprop:Generator_TableVarName="tableuvwEstoquePEPSCarregar" msprop:Generator_TablePropName="uvwEstoquePEPSCarregar" msprop:Generator_RowDeletingName="uvwEstoquePEPSCarregarRowDeleting" msprop:Generator_RowChangingName="uvwEstoquePEPSCarregarRowChanging" msprop:Generator_RowEvHandlerName="uvwEstoquePEPSCarregarRowChangeEventHandler" msprop:Generator_RowDeletedName="uvwEstoquePEPSCarregarRowDeleted" msprop:Generator_UserTableName="uvwEstoquePEPSCarregar" msprop:Generator_RowChangedName="uvwEstoquePEPSCarregarRowChanged" msprop:Generator_RowEvArgName="uvwEstoquePEPSCarregarRowChangeEvent" msprop:Generator_RowClassName="uvwEstoquePEPSCarregarRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Desc_Mov" msprop:Generator_ColumnVarNameInTable="columnDesc_Mov" msprop:Generator_ColumnPropNameInRow="Desc_Mov" msprop:Generator_ColumnPropNameInTable="Desc_MovColumn" msprop:Generator_UserColumnName="Desc_Mov">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NumLote" msprop:Generator_ColumnVarNameInTable="columnNumLote" msprop:Generator_ColumnPropNameInRow="NumLote" msprop:Generator_ColumnPropNameInTable="NumLoteColumn" msprop:Generator_UserColumnName="NumLote" type="xs:int" />
+              <xs:element name="Descricao" msprop:Generator_ColumnVarNameInTable="columnDescricao" msprop:Generator_ColumnPropNameInRow="Descricao" msprop:Generator_ColumnPropNameInTable="DescricaoColumn" msprop:Generator_UserColumnName="Descricao">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Qtde" msprop:Generator_ColumnVarNameInTable="columnQtde" msprop:Generator_ColumnPropNameInRow="Qtde" msprop:Generator_ColumnPropNameInTable="QtdeColumn" msprop:Generator_UserColumnName="Qtde" type="xs:int" />
+              <xs:element name="PrecoUnit" msprop:Generator_ColumnVarNameInTable="columnPrecoUnit" msprop:Generator_ColumnPropNameInRow="PrecoUnit" msprop:Generator_ColumnPropNameInTable="PrecoUnitColumn" msprop:Generator_UserColumnName="PrecoUnit" type="xs:decimal" />
+              <xs:element name="DataEntrada" msprop:Generator_ColumnVarNameInTable="columnDataEntrada" msprop:Generator_ColumnPropNameInRow="DataEntrada" msprop:Generator_ColumnPropNameInTable="DataEntradaColumn" msprop:Generator_UserColumnName="DataEntrada" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="DataSaida" msprop:Generator_ColumnVarNameInTable="columnDataSaida" msprop:Generator_ColumnPropNameInRow="DataSaida" msprop:Generator_ColumnPropNameInTable="DataSaidaColumn" msprop:Generator_UserColumnName="DataSaida" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Subtotal" msprop:Generator_ColumnVarNameInTable="columnSubtotal" msprop:Generator_ColumnPropNameInRow="Subtotal" msprop:Generator_ColumnPropNameInTable="SubtotalColumn" msprop:Generator_UserColumnName="Subtotal" type="xs:decimal" />
+              <xs:element name="ICMS" msprop:Generator_ColumnVarNameInTable="columnICMS" msprop:Generator_ColumnPropNameInRow="ICMS" msprop:Generator_ColumnPropNameInTable="ICMSColumn" msprop:Generator_UserColumnName="ICMS" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Total" msprop:Generator_ColumnVarNameInTable="columnTotal" msprop:Generator_ColumnPropNameInRow="Total" msprop:Generator_ColumnPropNameInTable="TotalColumn" msprop:Generator_UserColumnName="Total" type="xs:decimal" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="uvwEstoqueUEPSCarregar" msprop:Generator_TableClassName="uvwEstoqueUEPSCarregarDataTable" msprop:Generator_TableVarName="tableuvwEstoqueUEPSCarregar" msprop:Generator_TablePropName="uvwEstoqueUEPSCarregar" msprop:Generator_RowDeletingName="uvwEstoqueUEPSCarregarRowDeleting" msprop:Generator_RowChangingName="uvwEstoqueUEPSCarregarRowChanging" msprop:Generator_RowEvHandlerName="uvwEstoqueUEPSCarregarRowChangeEventHandler" msprop:Generator_RowDeletedName="uvwEstoqueUEPSCarregarRowDeleted" msprop:Generator_UserTableName="uvwEstoqueUEPSCarregar" msprop:Generator_RowChangedName="uvwEstoqueUEPSCarregarRowChanged" msprop:Generator_RowEvArgName="uvwEstoqueUEPSCarregarRowChangeEvent" msprop:Generator_RowClassName="uvwEstoqueUEPSCarregarRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Desc_Mov" msprop:Generator_ColumnVarNameInTable="columnDesc_Mov" msprop:Generator_ColumnPropNameInRow="Desc_Mov" msprop:Generator_ColumnPropNameInTable="Desc_MovColumn" msprop:Generator_UserColumnName="Desc_Mov">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NumLote" msprop:Generator_ColumnVarNameInTable="columnNumLote" msprop:Generator_ColumnPropNameInRow="NumLote" msprop:Generator_ColumnPropNameInTable="NumLoteColumn" msprop:Generator_UserColumnName="NumLote" type="xs:int" />
+              <xs:element name="Descricao" msprop:Generator_ColumnVarNameInTable="columnDescricao" msprop:Generator_ColumnPropNameInRow="Descricao" msprop:Generator_ColumnPropNameInTable="DescricaoColumn" msprop:Generator_UserColumnName="Descricao">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Qtde" msprop:Generator_ColumnVarNameInTable="columnQtde" msprop:Generator_ColumnPropNameInRow="Qtde" msprop:Generator_ColumnPropNameInTable="QtdeColumn" msprop:Generator_UserColumnName="Qtde" type="xs:int" />
+              <xs:element name="PrecoUnit" msprop:Generator_ColumnVarNameInTable="columnPrecoUnit" msprop:Generator_ColumnPropNameInRow="PrecoUnit" msprop:Generator_ColumnPropNameInTable="PrecoUnitColumn" msprop:Generator_UserColumnName="PrecoUnit" type="xs:decimal" />
+              <xs:element name="DataEntrada" msprop:Generator_ColumnVarNameInTable="columnDataEntrada" msprop:Generator_ColumnPropNameInRow="DataEntrada" msprop:Generator_ColumnPropNameInTable="DataEntradaColumn" msprop:Generator_UserColumnName="DataEntrada" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="DataSaida" msprop:Generator_ColumnVarNameInTable="columnDataSaida" msprop:Generator_ColumnPropNameInRow="DataSaida" msprop:Generator_ColumnPropNameInTable="DataSaidaColumn" msprop:Generator_UserColumnName="DataSaida" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Subtotal" msprop:Generator_ColumnVarNameInTable="columnSubtotal" msprop:Generator_ColumnPropNameInRow="Subtotal" msprop:Generator_ColumnPropNameInTable="SubtotalColumn" msprop:Generator_UserColumnName="Subtotal" type="xs:decimal" />
+              <xs:element name="ICMS" msprop:Generator_ColumnVarNameInTable="columnICMS" msprop:Generator_ColumnPropNameInRow="ICMS" msprop:Generator_ColumnPropNameInTable="ICMSColumn" msprop:Generator_UserColumnName="ICMS" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Total" msprop:Generator_ColumnVarNameInTable="columnTotal" msprop:Generator_ColumnPropNameInRow="Total" msprop:Generator_ColumnPropNameInTable="TotalColumn" msprop:Generator_UserColumnName="Total" type="xs:decimal" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="uvwUsuarioNivelAcesso" msprop:Generator_TableClassName="uvwUsuarioNivelAcessoDataTable" msprop:Generator_TableVarName="tableuvwUsuarioNivelAcesso" msprop:Generator_TablePropName="uvwUsuarioNivelAcesso" msprop:Generator_RowDeletingName="uvwUsuarioNivelAcessoRowDeleting" msprop:Generator_RowChangingName="uvwUsuarioNivelAcessoRowChanging" msprop:Generator_RowEvHandlerName="uvwUsuarioNivelAcessoRowChangeEventHandler" msprop:Generator_RowDeletedName="uvwUsuarioNivelAcessoRowDeleted" msprop:Generator_UserTableName="uvwUsuarioNivelAcesso" msprop:Generator_RowChangedName="uvwUsuarioNivelAcessoRowChanged" msprop:Generator_RowEvArgName="uvwUsuarioNivelAcessoRowChangeEvent" msprop:Generator_RowClassName="uvwUsuarioNivelAcessoRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NOME" msprop:Generator_ColumnVarNameInTable="columnNOME" msprop:Generator_ColumnPropNameInRow="NOME" msprop:Generator_ColumnPropNameInTable="NOMEColumn" msprop:Generator_UserColumnName="NOME">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SENHA" msprop:Generator_ColumnVarNameInTable="columnSENHA" msprop:Generator_ColumnPropNameInRow="SENHA" msprop:Generator_ColumnPropNameInTable="SENHAColumn" msprop:Generator_UserColumnName="SENHA">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="EMAIL" msprop:Generator_ColumnVarNameInTable="columnEMAIL" msprop:Generator_ColumnPropNameInRow="EMAIL" msprop:Generator_ColumnPropNameInTable="EMAILColumn" msprop:Generator_UserColumnName="EMAIL">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="idAcesso" msprop:Generator_ColumnVarNameInTable="columnidAcesso" msprop:Generator_ColumnPropNameInRow="idAcesso" msprop:Generator_ColumnPropNameInTable="idAcessoColumn" msprop:Generator_UserColumnName="idAcesso" type="xs:int" />
+              <xs:element name="NIVELACESSO" msprop:Generator_ColumnVarNameInTable="columnNIVELACESSO" msprop:Generator_ColumnPropNameInRow="NIVELACESSO" msprop:Generator_ColumnPropNameInTable="NIVELACESSOColumn" msprop:Generator_UserColumnName="NIVELACESSO">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

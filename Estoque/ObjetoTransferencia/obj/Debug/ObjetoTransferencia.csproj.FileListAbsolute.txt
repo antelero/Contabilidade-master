@@ -1,0 +1,20 @@
+C:\Users\Marcelo\Desktop\Contabilidade-master\Contabilidade-master\Estoque\ObjetoTransferencia\bin\Debug\ObjetoTransferencia.dll
+C:\Users\Marcelo\Desktop\Contabilidade-master\Contabilidade-master\Estoque\ObjetoTransferencia\bin\Debug\ObjetoTransferencia.pdb
+C:\Users\Marcelo\Desktop\Contabilidade-master\Contabilidade-master\Estoque\ObjetoTransferencia\obj\Debug\ObjetoTransferencia.csprojResolveAssemblyReference.cache
+C:\Users\Marcelo\Desktop\Contabilidade-master\Contabilidade-master\Estoque\ObjetoTransferencia\obj\Debug\ObjetoTransferencia.dll
+C:\Users\Marcelo\Desktop\Contabilidade-master\Contabilidade-master\Estoque\ObjetoTransferencia\obj\Debug\ObjetoTransferencia.pdb
+C:\Users\Marcelo\OneDrive\Contabilidade-master\Estoque\ObjetoTransferencia\bin\Debug\ObjetoTransferencia.dll
+C:\Users\Marcelo\OneDrive\Contabilidade-master\Estoque\ObjetoTransferencia\bin\Debug\ObjetoTransferencia.pdb
+C:\Users\Marcelo\OneDrive\Contabilidade-master\Estoque\ObjetoTransferencia\obj\Debug\ObjetoTransferencia.csprojResolveAssemblyReference.cache
+C:\Users\Marcelo\OneDrive\Contabilidade-master\Estoque\ObjetoTransferencia\obj\Debug\ObjetoTransferencia.dll
+C:\Users\Marcelo\OneDrive\Contabilidade-master\Estoque\ObjetoTransferencia\obj\Debug\ObjetoTransferencia.pdb
+C:\Users\Marcelo\Desktop\Nova pasta\Contabilidade-master\Estoque\ObjetoTransferencia\bin\Debug\ObjetoTransferencia.dll
+C:\Users\Marcelo\Desktop\Nova pasta\Contabilidade-master\Estoque\ObjetoTransferencia\bin\Debug\ObjetoTransferencia.pdb
+C:\Users\Marcelo\Desktop\Nova pasta\Contabilidade-master\Estoque\ObjetoTransferencia\obj\Debug\ObjetoTransferencia.csprojResolveAssemblyReference.cache
+C:\Users\Marcelo\Desktop\Nova pasta\Contabilidade-master\Estoque\ObjetoTransferencia\obj\Debug\ObjetoTransferencia.dll
+C:\Users\Marcelo\Desktop\Nova pasta\Contabilidade-master\Estoque\ObjetoTransferencia\obj\Debug\ObjetoTransferencia.pdb
+C:\Users\Marcelo\Desktop\Contabilidade-master\Estoque\ObjetoTransferencia\bin\Debug\ObjetoTransferencia.dll
+C:\Users\Marcelo\Desktop\Contabilidade-master\Estoque\ObjetoTransferencia\bin\Debug\ObjetoTransferencia.pdb
+C:\Users\Marcelo\Desktop\Contabilidade-master\Estoque\ObjetoTransferencia\obj\Debug\ObjetoTransferencia.dll
+C:\Users\Marcelo\Desktop\Contabilidade-master\Estoque\ObjetoTransferencia\obj\Debug\ObjetoTransferencia.pdb
+C:\Users\Marcelo\Desktop\Contabilidade-master\Estoque\ObjetoTransferencia\obj\Debug\ObjetoTransferencia.csprojResolveAssemblyReference.cache

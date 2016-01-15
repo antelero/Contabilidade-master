@@ -1,0 +1,99 @@
+C:\Users\Marcelo\Desktop\Contabilidade-master\Contabilidade-master\Estoque\Apresentacao\bin\Debug\Apresentacao.exe.config
+C:\Users\Marcelo\Desktop\Contabilidade-master\Contabilidade-master\Estoque\Apresentacao\bin\Debug\Apresentacao.exe
+C:\Users\Marcelo\Desktop\Contabilidade-master\Contabilidade-master\Estoque\Apresentacao\bin\Debug\Apresentacao.pdb
+C:\Users\Marcelo\Desktop\Contabilidade-master\Contabilidade-master\Estoque\Apresentacao\obj\Debug\Apresentacao.csprojResolveAssemblyReference.cache
+C:\Users\Marcelo\Desktop\Contabilidade-master\Contabilidade-master\Estoque\Apresentacao\obj\Debug\Apresentacao.Properties.Resources.resources
+C:\Users\Marcelo\Desktop\Contabilidade-master\Contabilidade-master\Estoque\Apresentacao\obj\Debug\Apresentacao.csproj.GenerateResource.Cache
+C:\Users\Marcelo\Desktop\Contabilidade-master\Contabilidade-master\Estoque\Apresentacao\obj\Debug\Apresentacao.exe
+C:\Users\Marcelo\Desktop\Contabilidade-master\Contabilidade-master\Estoque\Apresentacao\obj\Debug\Apresentacao.pdb
+C:\Users\Marcelo\Desktop\Contabilidade-master\Contabilidade-master\Estoque\Apresentacao\obj\Debug\Apresentacao.frmLogin.resources
+C:\Users\Marcelo\Desktop\Contabilidade-master\Contabilidade-master\Estoque\Apresentacao\obj\Debug\Apresentacao.frmCadastrarUsuario.resources
+C:\Users\Marcelo\Desktop\Contabilidade-master\Contabilidade-master\Estoque\Apresentacao\obj\Debug\Apresentacao.frmFuncoesSistema.resources
+C:\Users\Marcelo\Desktop\Contabilidade-master\Contabilidade-master\Estoque\Apresentacao\obj\Debug\Apresentacao.frmTelaControle.resources
+C:\Users\Marcelo\Desktop\Contabilidade-master\Contabilidade-master\Estoque\Apresentacao\bin\Debug\MetroFramework.Design.dll
+C:\Users\Marcelo\Desktop\Contabilidade-master\Contabilidade-master\Estoque\Apresentacao\bin\Debug\MetroFramework.dll
+C:\Users\Marcelo\Desktop\Contabilidade-master\Contabilidade-master\Estoque\Apresentacao\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\Marcelo\OneDrive\Contabilidade-master\Estoque\Apresentacao\bin\Debug\Apresentacao.exe.config
+C:\Users\Marcelo\OneDrive\Contabilidade-master\Estoque\Apresentacao\obj\Debug\Apresentacao.exe
+C:\Users\Marcelo\OneDrive\Contabilidade-master\Estoque\Apresentacao\obj\Debug\Apresentacao.pdb
+C:\Users\Marcelo\OneDrive\Contabilidade-master\Estoque\Apresentacao\bin\Debug\Apresentacao.exe
+C:\Users\Marcelo\OneDrive\Contabilidade-master\Estoque\Apresentacao\bin\Debug\Apresentacao.pdb
+C:\Users\Marcelo\OneDrive\Contabilidade-master\Estoque\Apresentacao\bin\Debug\Negocio.dll
+C:\Users\Marcelo\OneDrive\Contabilidade-master\Estoque\Apresentacao\bin\Debug\ObjetoTransferencia.dll
+C:\Users\Marcelo\OneDrive\Contabilidade-master\Estoque\Apresentacao\bin\Debug\AcessoBancoDados.dll
+C:\Users\Marcelo\OneDrive\Contabilidade-master\Estoque\Apresentacao\bin\Debug\Negocio.pdb
+C:\Users\Marcelo\OneDrive\Contabilidade-master\Estoque\Apresentacao\bin\Debug\ObjetoTransferencia.pdb
+C:\Users\Marcelo\OneDrive\Contabilidade-master\Estoque\Apresentacao\bin\Debug\AcessoBancoDados.pdb
+C:\Users\Marcelo\OneDrive\Contabilidade-master\Estoque\Apresentacao\obj\Debug\Apresentacao.csprojResolveAssemblyReference.cache
+C:\Users\Marcelo\OneDrive\Contabilidade-master\Estoque\Apresentacao\obj\Debug\Apresentacao.frmCadastrarUsuario.resources
+C:\Users\Marcelo\OneDrive\Contabilidade-master\Estoque\Apresentacao\obj\Debug\Apresentacao.frmFuncoesSistema.resources
+C:\Users\Marcelo\OneDrive\Contabilidade-master\Estoque\Apresentacao\obj\Debug\Apresentacao.frmLogin.resources
+C:\Users\Marcelo\OneDrive\Contabilidade-master\Estoque\Apresentacao\obj\Debug\Apresentacao.frmRecuperacaoLogin.resources
+C:\Users\Marcelo\OneDrive\Contabilidade-master\Estoque\Apresentacao\obj\Debug\Apresentacao.frmTelaControle.resources
+C:\Users\Marcelo\OneDrive\Contabilidade-master\Estoque\Apresentacao\obj\Debug\Apresentacao.Properties.Resources.resources
+C:\Users\Marcelo\OneDrive\Contabilidade-master\Estoque\Apresentacao\obj\Debug\Apresentacao.csproj.GenerateResource.Cache
+C:\Users\Marcelo\OneDrive\Contabilidade-master\Estoque\Apresentacao\obj\Debug\Apresentacao.frmCadastrarItem.resources
+C:\Users\Marcelo\OneDrive\Contabilidade-master\Estoque\Apresentacao\bin\Debug\MetroFramework.Design.dll
+C:\Users\Marcelo\OneDrive\Contabilidade-master\Estoque\Apresentacao\bin\Debug\MetroFramework.dll
+C:\Users\Marcelo\OneDrive\Contabilidade-master\Estoque\Apresentacao\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\Marcelo\Desktop\Nova pasta\Contabilidade-master\Estoque\Apresentacao\bin\Debug\Apresentacao.exe.config
+C:\Users\Marcelo\Desktop\Nova pasta\Contabilidade-master\Estoque\Apresentacao\obj\Debug\Apresentacao.exe
+C:\Users\Marcelo\Desktop\Nova pasta\Contabilidade-master\Estoque\Apresentacao\obj\Debug\Apresentacao.pdb
+C:\Users\Marcelo\Desktop\Nova pasta\Contabilidade-master\Estoque\Apresentacao\bin\Debug\Apresentacao.exe
+C:\Users\Marcelo\Desktop\Nova pasta\Contabilidade-master\Estoque\Apresentacao\bin\Debug\Apresentacao.pdb
+C:\Users\Marcelo\Desktop\Nova pasta\Contabilidade-master\Estoque\Apresentacao\bin\Debug\MetroFramework.Design.dll
+C:\Users\Marcelo\Desktop\Nova pasta\Contabilidade-master\Estoque\Apresentacao\bin\Debug\MetroFramework.dll
+C:\Users\Marcelo\Desktop\Nova pasta\Contabilidade-master\Estoque\Apresentacao\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\Marcelo\Desktop\Nova pasta\Contabilidade-master\Estoque\Apresentacao\bin\Debug\Negocio.dll
+C:\Users\Marcelo\Desktop\Nova pasta\Contabilidade-master\Estoque\Apresentacao\bin\Debug\ObjetoTransferencia.dll
+C:\Users\Marcelo\Desktop\Nova pasta\Contabilidade-master\Estoque\Apresentacao\bin\Debug\AcessoBancoDados.dll
+C:\Users\Marcelo\Desktop\Nova pasta\Contabilidade-master\Estoque\Apresentacao\bin\Debug\Negocio.pdb
+C:\Users\Marcelo\Desktop\Nova pasta\Contabilidade-master\Estoque\Apresentacao\bin\Debug\ObjetoTransferencia.pdb
+C:\Users\Marcelo\Desktop\Nova pasta\Contabilidade-master\Estoque\Apresentacao\bin\Debug\AcessoBancoDados.pdb
+C:\Users\Marcelo\Desktop\Nova pasta\Contabilidade-master\Estoque\Apresentacao\obj\Debug\Apresentacao.csprojResolveAssemblyReference.cache
+C:\Users\Marcelo\Desktop\Nova pasta\Contabilidade-master\Estoque\Apresentacao\obj\Debug\Apresentacao.frmItemCadastrar.resources
+C:\Users\Marcelo\Desktop\Nova pasta\Contabilidade-master\Estoque\Apresentacao\obj\Debug\Apresentacao.frmRelatorioPEPS.resources
+C:\Users\Marcelo\Desktop\Nova pasta\Contabilidade-master\Estoque\Apresentacao\obj\Debug\Apresentacao.frmUsuarioCadastrar.resources
+C:\Users\Marcelo\Desktop\Nova pasta\Contabilidade-master\Estoque\Apresentacao\obj\Debug\Apresentacao.frmFornecedorCadastrar.resources
+C:\Users\Marcelo\Desktop\Nova pasta\Contabilidade-master\Estoque\Apresentacao\obj\Debug\Apresentacao.frmFuncoesSistema.resources
+C:\Users\Marcelo\Desktop\Nova pasta\Contabilidade-master\Estoque\Apresentacao\obj\Debug\Apresentacao.frmLogin.resources
+C:\Users\Marcelo\Desktop\Nova pasta\Contabilidade-master\Estoque\Apresentacao\obj\Debug\Apresentacao.frmRecuperacaoLogin.resources
+C:\Users\Marcelo\Desktop\Nova pasta\Contabilidade-master\Estoque\Apresentacao\obj\Debug\Apresentacao.frmTelaControle.resources
+C:\Users\Marcelo\Desktop\Nova pasta\Contabilidade-master\Estoque\Apresentacao\obj\Debug\Apresentacao.Properties.Resources.resources
+C:\Users\Marcelo\Desktop\Nova pasta\Contabilidade-master\Estoque\Apresentacao\obj\Debug\Apresentacao.csproj.GenerateResource.Cache
+C:\Users\Marcelo\Desktop\Nova pasta\Contabilidade-master\Estoque\Apresentacao\obj\Debug\RdlCompile.cache
+C:\Users\Marcelo\Desktop\Nova pasta\Contabilidade-master\Estoque\Apresentacao\obj\Debug\RdlCompile.compiled
+C:\Users\Marcelo\Desktop\Contabilidade-master\Estoque\Apresentacao\bin\Debug\Apresentacao.exe
+C:\Users\Marcelo\Desktop\Contabilidade-master\Estoque\Apresentacao\bin\Debug\MetroFramework.dll
+C:\Users\Marcelo\Desktop\Contabilidade-master\Estoque\Apresentacao\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\Marcelo\Desktop\Contabilidade-master\Estoque\Apresentacao\bin\Debug\Apresentacao.exe.config
+C:\Users\Marcelo\Desktop\Contabilidade-master\Estoque\Apresentacao\bin\Debug\Apresentacao.pdb
+C:\Users\Marcelo\Desktop\Contabilidade-master\Estoque\Apresentacao\bin\Debug\MetroFramework.Design.dll
+C:\Users\Marcelo\Desktop\Contabilidade-master\Estoque\Apresentacao\bin\Debug\Negocio.dll
+C:\Users\Marcelo\Desktop\Contabilidade-master\Estoque\Apresentacao\bin\Debug\ObjetoTransferencia.dll
+C:\Users\Marcelo\Desktop\Contabilidade-master\Estoque\Apresentacao\bin\Debug\AcessoBancoDados.dll
+C:\Users\Marcelo\Desktop\Contabilidade-master\Estoque\Apresentacao\bin\Debug\Negocio.pdb
+C:\Users\Marcelo\Desktop\Contabilidade-master\Estoque\Apresentacao\bin\Debug\ObjetoTransferencia.pdb
+C:\Users\Marcelo\Desktop\Contabilidade-master\Estoque\Apresentacao\bin\Debug\AcessoBancoDados.pdb
+C:\Users\Marcelo\Desktop\Contabilidade-master\Estoque\Apresentacao\obj\Debug\Apresentacao.csprojResolveAssemblyReference.cache
+C:\Users\Marcelo\Desktop\Contabilidade-master\Estoque\Apresentacao\obj\Debug\Apresentacao.frmCategoriaCadastrar.resources
+C:\Users\Marcelo\Desktop\Contabilidade-master\Estoque\Apresentacao\obj\Debug\Apresentacao.frmClienteCadastrar.resources
+C:\Users\Marcelo\Desktop\Contabilidade-master\Estoque\Apresentacao\obj\Debug\Apresentacao.frmPrimeiroAcesso.resources
+C:\Users\Marcelo\Desktop\Contabilidade-master\Estoque\Apresentacao\obj\Debug\Apresentacao.frmProdutoComprar.resources
+C:\Users\Marcelo\Desktop\Contabilidade-master\Estoque\Apresentacao\obj\Debug\Apresentacao.frmRelatorioPEPS.resources
+C:\Users\Marcelo\Desktop\Contabilidade-master\Estoque\Apresentacao\obj\Debug\Apresentacao.frmRelatorioUEPS.resources
+C:\Users\Marcelo\Desktop\Contabilidade-master\Estoque\Apresentacao\obj\Debug\Apresentacao.frmUsuarioAlterar.resources
+C:\Users\Marcelo\Desktop\Contabilidade-master\Estoque\Apresentacao\obj\Debug\Apresentacao.frmUsuarioCadastrar.resources
+C:\Users\Marcelo\Desktop\Contabilidade-master\Estoque\Apresentacao\obj\Debug\Apresentacao.frmFornecedorCadastrar.resources
+C:\Users\Marcelo\Desktop\Contabilidade-master\Estoque\Apresentacao\obj\Debug\Apresentacao.frmLogin.resources
+C:\Users\Marcelo\Desktop\Contabilidade-master\Estoque\Apresentacao\obj\Debug\Apresentacao.frmRecuperacaoLogin.resources
+C:\Users\Marcelo\Desktop\Contabilidade-master\Estoque\Apresentacao\obj\Debug\Apresentacao.frmTelaControle.resources
+C:\Users\Marcelo\Desktop\Contabilidade-master\Estoque\Apresentacao\obj\Debug\Apresentacao.frmProdutoVender.resources
+C:\Users\Marcelo\Desktop\Contabilidade-master\Estoque\Apresentacao\obj\Debug\Apresentacao.frmUsuarios.resources
+C:\Users\Marcelo\Desktop\Contabilidade-master\Estoque\Apresentacao\obj\Debug\Apresentacao.frmRelatorioCM.resources
+C:\Users\Marcelo\Desktop\Contabilidade-master\Estoque\Apresentacao\obj\Debug\Apresentacao.Properties.Resources.resources
+C:\Users\Marcelo\Desktop\Contabilidade-master\Estoque\Apresentacao\obj\Debug\Apresentacao.csproj.GenerateResource.Cache
+C:\Users\Marcelo\Desktop\Contabilidade-master\Estoque\Apresentacao\obj\Debug\RdlCompile.cache
+C:\Users\Marcelo\Desktop\Contabilidade-master\Estoque\Apresentacao\obj\Debug\RdlCompile.compiled
+C:\Users\Marcelo\Desktop\Contabilidade-master\Estoque\Apresentacao\obj\Debug\Apresentacao.exe
+C:\Users\Marcelo\Desktop\Contabilidade-master\Estoque\Apresentacao\obj\Debug\Apresentacao.pdb
