@@ -41,7 +41,6 @@ namespace Apresentacao
             AtualizarGridCustoMedio();
 
         }
-
         private void AtualizarGrid()
         {
             clsEstoqueNegocio estoqueNegocio = new clsEstoqueNegocio();
@@ -55,7 +54,6 @@ namespace Apresentacao
             dtGridViewPrincipal.Update();
             dtGridViewPrincipal.Refresh();
         }
-
         private void AtualizarGridPEPS()
         {
             clsEstoqueNegocio estoqueNegocioPEPS = new clsEstoqueNegocio();
@@ -69,7 +67,6 @@ namespace Apresentacao
             dtGridViewPEPS.Update();
             dtGridViewPEPS.Refresh();
         }
-
         private void AtualizarGridUEPS()
         {
             clsEstoqueNegocio estoqueNegocioUEPS = new clsEstoqueNegocio();
@@ -108,38 +105,37 @@ namespace Apresentacao
             frmProdutoVender venda = new frmProdutoVender(estoque);
 
             //Chamando esse novo objeto venda
-            venda.ShowDialog();
-        }
+            //Passando como resposta 'yes' caso seja feita a venda
+            DialogResult resp = venda.ShowDialog();
 
+            if (resp == DialogResult.Yes)
+            {
+                AtualizarGrid();
+                AtualizarGridPEPS();
+                AtualizarGridUEPS();
+                AtualizarGridCustoMedio();
+            }
+        }
         private void btnNovoProduto_Click(object sender, EventArgs e)
         {
             frmProdutoComprar NovoProduto = new frmProdutoComprar();
-            NovoProduto.ShowDialog();
+            DialogResult resp = NovoProduto.ShowDialog();
+            if (resp == DialogResult.Yes)
+                AtualizarGrid();
         }
-
         private void btnNovoFornecedor_Click(object sender, EventArgs e)
         {
             frmFornecedorCadastrar NovoFornecedor = new frmFornecedorCadastrar();
-            NovoFornecedor.ShowDialog();
+            DialogResult resp = NovoFornecedor.ShowDialog();
         }
-
         private void btnNovaCategoria_Click(object sender, EventArgs e)
         {
             frmCategoriaCadastrar NovaCategoria = new frmCategoriaCadastrar();
             NovaCategoria.ShowDialog();
         }
-
         private void btnNovaMovimentacao_Click(object sender, EventArgs e)
         {
 
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            AtualizarGrid();
-            AtualizarGridPEPS();
-            AtualizarGridUEPS();
-            AtualizarGridCustoMedio();
         }
         private void txtBuscaEstoquePrincipal_TextChanged(object sender, EventArgs e)
         {
@@ -303,41 +299,34 @@ namespace Apresentacao
             frmUsuarios Usuario = new frmUsuarios();
             Usuario.ShowDialog();
         }
-
         private void btnNovoUsuario_Click(object sender, EventArgs e)
         {
             frmUsuarioCadastrar UC = new frmUsuarioCadastrar();
             UC.ShowDialog();
         }
-
         private void btnLogout_Click(object sender, EventArgs e)
         {
             Close();
         }
-
         private void btnEmitirRelatorioPEPS_Click(object sender, EventArgs e)
         {
             frmRelatorioPEPS RelatorioPEPS = new frmRelatorioPEPS();
             RelatorioPEPS.Show();
         }
-
         private void btnEmitirRelatorioUEPS_Click(object sender, EventArgs e)
         {
             frmRelatorioUEPS RelatorioUEPS = new frmRelatorioUEPS();
             RelatorioUEPS.Show();
         }
-
         private void btnEmitirRelatorioCM_Click(object sender, EventArgs e)
         {
             frmRelatorioCM RelatorioCM = new frmRelatorioCM();
             RelatorioCM.Show();
         }
-
         private void metroContextMenu1_Opening(object sender, CancelEventArgs e)
         {
 
         }
-
         private void mstripVenderProduto_Click(object sender, EventArgs e)
         {
 

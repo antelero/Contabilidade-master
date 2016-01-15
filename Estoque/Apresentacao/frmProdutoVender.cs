@@ -46,6 +46,8 @@ namespace Apresentacao
 
             MetroFramework.MetroMessageBox.Show(this, "\n\n A VENDA FOI EFETUADA COM SUCESSO ! .", "INFORMAÇÃO", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
+            this.DialogResult = DialogResult.Yes;
+
             Close();
         }
 

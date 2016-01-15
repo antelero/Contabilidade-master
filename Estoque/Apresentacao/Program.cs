@@ -16,7 +16,7 @@ namespace Apresentacao
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmTelaControle(0));
+            Application.Run(new frmTelaControle(1));
         }
     }
 }

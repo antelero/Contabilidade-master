@@ -135,7 +135,6 @@
             this.btnConfUsuario = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnNovoProduto = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
             this.btnNovaCategoria = new System.Windows.Forms.Button();
             this.btnNovoFornecedor = new System.Windows.Forms.Button();
             this.Painel.SuspendLayout();
@@ -187,7 +186,7 @@
             this.tbpEstoquePrincipal.HorizontalScrollbarSize = 20;
             this.tbpEstoquePrincipal.Location = new System.Drawing.Point(4, 38);
             this.tbpEstoquePrincipal.Name = "tbpEstoquePrincipal";
-            this.tbpEstoquePrincipal.Size = new System.Drawing.Size(802, 428);
+            this.tbpEstoquePrincipal.Size = new System.Drawing.Size(1352, 424);
             this.tbpEstoquePrincipal.TabIndex = 0;
             this.tbpEstoquePrincipal.Text = "ESTOQUE PRINCIPAL";
             this.tbpEstoquePrincipal.VerticalScrollbarBarColor = true;
@@ -631,7 +630,7 @@
             this.tbpEstoqueUEPS.HorizontalScrollbarSize = 20;
             this.tbpEstoqueUEPS.Location = new System.Drawing.Point(4, 38);
             this.tbpEstoqueUEPS.Name = "tbpEstoqueUEPS";
-            this.tbpEstoqueUEPS.Size = new System.Drawing.Size(802, 428);
+            this.tbpEstoqueUEPS.Size = new System.Drawing.Size(1352, 424);
             this.tbpEstoqueUEPS.TabIndex = 2;
             this.tbpEstoqueUEPS.Text = "ESTOQUE UEPS";
             this.tbpEstoqueUEPS.VerticalScrollbarBarColor = true;
@@ -885,7 +884,7 @@
             this.tbpEstoqueCM.HorizontalScrollbarSize = 20;
             this.tbpEstoqueCM.Location = new System.Drawing.Point(4, 38);
             this.tbpEstoqueCM.Name = "tbpEstoqueCM";
-            this.tbpEstoqueCM.Size = new System.Drawing.Size(802, 428);
+            this.tbpEstoqueCM.Size = new System.Drawing.Size(1352, 424);
             this.tbpEstoqueCM.TabIndex = 3;
             this.tbpEstoqueCM.Text = "ESTOQUE CUSTO MEDIO";
             this.tbpEstoqueCM.VerticalScrollbarBarColor = true;
@@ -1229,28 +1228,6 @@
             this.btnNovoProduto.UseVisualStyleBackColor = false;
             this.btnNovoProduto.Click += new System.EventHandler(this.btnNovoProduto_Click);
             // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.White;
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatAppearance.CheckedBackColor = System.Drawing.Color.White;
-            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
-            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Image = global::Apresentacao.Properties.Resources.update32px;
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button1.Location = new System.Drawing.Point(1293, 31);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(79, 51);
-            this.button1.TabIndex = 20;
-            this.button1.Text = "Update";
-            this.button1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
             // btnNovaCategoria
             // 
             this.btnNovaCategoria.BackColor = System.Drawing.Color.White;
@@ -1305,7 +1282,6 @@
             this.Controls.Add(this.btnConfUsuario);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnNovoProduto);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.btnNovaCategoria);
             this.Controls.Add(this.btnNovoFornecedor);
             this.Controls.Add(this.Painel);
@@ -1360,7 +1336,6 @@
         private System.Windows.Forms.Button btnNovaCategoria;
         private System.Windows.Forms.Button btnNovoProduto;
         private MetroFramework.Controls.MetroGrid dtGridViewUEPS;
-        private System.Windows.Forms.Button button1;
         private MetroFramework.Controls.MetroGrid dtGridViewCustoMedio;
         private System.Windows.Forms.TextBox txtBuscaEstoquePrincipal;
         private System.Windows.Forms.TextBox txtBuscaEstoquePEPS;

@@ -90,11 +90,8 @@ namespace Apresentacao
                         }
                         else
                         {
+                            this.DialogResult = DialogResult.Yes;
                             Close();
-                            //Dispose();
-                            //frmTelaControle estoque = new frmTelaControle(0);
-                            //estoque.ShowDialog();
-
                         }
                     }
                     catch
