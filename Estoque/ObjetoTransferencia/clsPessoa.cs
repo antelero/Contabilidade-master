@@ -14,6 +14,6 @@ namespace ObjetoTransferencia
         public DateTime  DataNascimento { get; set; }
         public string Email { get; set; }
         public string Senha { get; set; }
-        public int idNivel { get; set; }
+        public int idNivel { get; set; } 
     }
 }

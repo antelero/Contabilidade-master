@@ -323,13 +323,6 @@ namespace Apresentacao
             frmRelatorioCM RelatorioCM = new frmRelatorioCM();
             RelatorioCM.Show();
         }
-        private void metroContextMenu1_Opening(object sender, CancelEventArgs e)
-        {
 
-        }
-        private void mstripVenderProduto_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }

@@ -109,7 +109,6 @@ namespace Negocio
                 throw new Exception("Não foi possivel carregar o estoque. Detalhe: " + exception.Message);
             }
         }
-
         public int Excluir(clsPessoa pessoa)
         {
             try
